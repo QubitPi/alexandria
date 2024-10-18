@@ -12,4 +12,4 @@ all:
 	$(REMOVE_AUXILIARY)
 
 clean:
-	rm -rf *.aux *.log *.out *.bbl *.blg *.toc *.tdo
+	rm -rf *.aux *.log *.out *.bbl *.blg *.toc *.tdo *.bcf *.glo *.idx *.ist *.nlo *.run.xml
