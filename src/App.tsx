@@ -7,66 +7,71 @@ function App() {
         <main>
           <section className="glass">
             <div className="dashboard">
-              <div className="user">
-                <img src="images/avatar.png" alt=""/>
-                <h3>Simo Edwin</h3>
-                <p>Pro Member</p>
+              <div className="project">
+                <div className="imageCropper">
+                  <img src="./images/avatar.png" alt=""/>
+                </div>
+                <h3>Alexandria</h3>
+                <p>Library</p>
               </div>
               <div className="links">
                 <div className="link">
-                  <img src="images/twitch.png" alt=""/>
-                  <h2>Streams</h2>
-                </div>
-                <div className="link">
-                  <img src="images/steam.png" alt=""/>
-                  <h2>Games</h2>
-                </div>
-                <div className="link">
-                  <img src="images/upcoming.png" alt=""/>
-                  <h2>New</h2>
+                  <img src="images/library.png" alt=""/>
+                  <h2>Categories</h2>
                 </div>
                 <div className="link">
                   <img src="images/library.png" alt=""/>
-                  <h2>Library</h2>
+                  <h2>On Interpretation</h2>
+                </div>
+                <div className="link">
+                  <img src="images/library.png" alt=""/>
+                  <h2>Prior Analytics</h2>
+                </div>
+                <div className="link">
+                  <img src="images/library.png" alt=""/>
+                  <h2>Posterior Analytics</h2>
                 </div>
               </div>
-              <div className="pro">
-                <h2>Join pro for free games.</h2>
-                <img src="images/controller.png" alt=""/>
-              </div>
+              <a href="https://github.com/QubitPi/alexandria" style={{textDecoration: "none"}}>
+                <div className="github">
+                  <h2>Fork it on GitHub</h2>
+                  <img src="images/github.png" width="80%" alt=""/>
+                </div>
+              </a>
+
             </div>
-            <div className="games">
+            <div className="audios">
               <div className="status">
-                <h1>Active Games</h1>
+                <h1>Aristotle</h1>
                 <input type="text"/>
               </div>
               <div className="cards">
                 <div className="card">
-                  <img src="images/assassins.png" alt=""/>
+                  <img src="images/first.png" width="10%" alt=""/>
                   <div className="card-info">
-                    <h2>Assassins Creed Valhalla</h2>
-                    <p>PS5 Version</p>
+                    <h2>Paragraph 1</h2>
+                    <p>Aristotle's Categories</p>
                     <div className="progress"></div>
                   </div>
-                  <h2 className="percentage">60%</h2>
+                  <h2 className="percentage">33%</h2>
                 </div>
                 <div className="card">
-                  <img src="images/sackboy.png" alt=""/>
+                  <img src="images/second.png" width="10%" alt=""/>
                   <div className="card-info">
-                    <h2>Sackboy A Great Advanture</h2>
-                    <p>PS5 Version</p>
+                    <h2>Paragraph 2</h2>
+                    <p>Aristotle's Categories</p>
                     <div className="progress"></div>
                   </div>
-                  <h2 className="percentage">60%</h2>
+                  <h2 className="percentage">66%</h2>
                 </div>
                 <div className="card">
-                  <img src="images/spiderman.png" alt=""/>
+                  <img src="images/third.png" width="10%" alt=""/>
                   <div className="card-info">
-                    <h2>Spiderman Miles Morales</h2>
-                    <p>PS5 Version</p>
+                    <h2>Paragraph 3</h2>
+                    <p>Aristotle's Categories</p>
                     <div className="progress"></div>
                   </div>
-                  <h2 className="percentage">60%</h2>
+                  <h2 className="percentage">100%</h2>
                 </div>
               </div>
             </div>

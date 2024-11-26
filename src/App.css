@@ -82,6 +82,23 @@ main {
   );
   border-radius: 2rem;
 }
+
+.project .imageCropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.project img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+
 .link {
   display: flex;
   margin: 2rem 0rem;
@@ -92,11 +109,15 @@ main {
   padding: 0rem 2rem;
 }
 
-.games {
+.audios {
   flex: 2;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.pro {
+.github {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   border-radius: 2rem;
   color: white;
@@ -104,18 +125,17 @@ main {
   position: relative;
 }
 
-.pro img {
+.github img {
   position: absolute;
-  top: -10%;
-  right: 10%;
+  top: 3%;
+  right: -10%;
 }
-.pro h2 {
+.github h2 {
   width: 40%;
   color: white;
   font-weight: 600;
 }
 
-/* GAMES */
 .status {
   margin-bottom: 3rem;
 }
@@ -130,13 +150,6 @@ main {
   width: 50%;
   padding: 0.5rem;
   border-radius: 2rem;
-}
-
-.games {
-  margin: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .card {
