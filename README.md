@@ -9,9 +9,9 @@
 __Alexandria__ is a companion project of [Aristotle](https://aristotle.qubitpi.org) and hosts audio of converted Ancient
 Greek texts referenced from Loeb Classical Library. The following table summarizes the works:
 
-| Book                                                    | Audio                                                                   |
-|---------------------------------------------------------|-------------------------------------------------------------------------|
-| [Aristotle's Categories](text/aristotle-categories.pdf) | [Paragraph 1](./audio/aristotle-categories/aristotle-categories-p1.mp3) |
+| Book                                                   | Audio                                                                   |
+|--------------------------------------------------------|-------------------------------------------------------------------------|
+| [Aristotle's Categories](pdf/aristotle-categories.pdf) | [Paragraph 1](./audio/aristotle-categories/aristotle-categories-p1.mp3) |
 
 License
 -------
