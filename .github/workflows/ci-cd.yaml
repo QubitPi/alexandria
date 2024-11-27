@@ -60,9 +60,24 @@ jobs:
         with:
           fail: true
 
+  basic-tests:
+    needs: [yaml-lint, markdown-lint, linkChecker]
+    name: Unit & Component tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set node version to ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Install dependencies
+        run: npm install -g yarn@1.22.19 && yarn
+      - name: Run unit tests
+        run: yarn test
+
   deploy:
     name: Deploy to GitHub Pages
-    needs: [yaml-lint, markdown-lint, linkChecker]
+    needs: basic-tests
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
