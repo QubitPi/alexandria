@@ -16,19 +16,19 @@ function App() {
               </div>
               <div className="links">
                 <div className="link">
-                  <img src="images/library.png" alt=""/>
+                  <img src="images/library.png" width="20%" alt=""/>
                   <h2>Categories</h2>
                 </div>
                 <div className="link">
-                  <img src="images/library.png" alt=""/>
+                  <img src="images/library.png" width="20%" alt=""/>
                   <h2>On Interpretation</h2>
                 </div>
                 <div className="link">
-                  <img src="images/library.png" alt=""/>
+                  <img src="images/library.png" width="20%" alt=""/>
                   <h2>Prior Analytics</h2>
                 </div>
                 <div className="link">
-                  <img src="images/library.png" alt=""/>
+                  <img src="images/library.png" width="20%" alt=""/>
                   <h2>Posterior Analytics</h2>
                 </div>
               </div>
