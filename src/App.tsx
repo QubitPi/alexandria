@@ -17,19 +17,19 @@ function App() {
               <div className="links">
                 <div className="link">
                   <img src="images/library.png" alt=""/>
-                  <h2>Categories</h2>
+                  <h2>Aristotle</h2>
                 </div>
                 <div className="link">
                   <img src="images/library.png" alt=""/>
-                  <h2>On Interpretation</h2>
+                  <h2>Herodotus</h2>
                 </div>
                 <div className="link">
                   <img src="images/library.png" alt=""/>
-                  <h2>Prior Analytics</h2>
+                  <h2>Xenophon</h2>
                 </div>
                 <div className="link">
                   <img src="images/library.png" alt=""/>
-                  <h2>Posterior Analytics</h2>
+                  <h2>Hippocrates</h2>
                 </div>
               </div>
               <a href="https://github.com/QubitPi/alexandria" style={{textDecoration: "none"}}>
@@ -49,29 +49,29 @@ function App() {
                 <div className="card">
                   <img src="images/first.png" width="10%" alt=""/>
                   <div className="card-info">
-                    <h2>Paragraph 1</h2>
-                    <p>Aristotle's Categories</p>
+                    <h2>Categories</h2>
+                    <p>Aristotle's Six Works on Logics</p>
                     <div className="progress"></div>
                   </div>
-                  <h2 className="percentage">33%</h2>
+                  <h2 className="percentage">10%</h2>
                 </div>
                 <div className="card">
                   <img src="images/second.png" width="10%" alt=""/>
                   <div className="card-info">
-                    <h2>Paragraph 2</h2>
-                    <p>Aristotle's Categories</p>
+                    <h2>On Interpretation</h2>
+                    <p>Aristotle's Six Works on Logics</p>
                     <div className="progress"></div>
                   </div>
-                  <h2 className="percentage">66%</h2>
+                  <h2 className="percentage">0%</h2>
                 </div>
                 <div className="card">
                   <img src="images/third.png" width="10%" alt=""/>
                   <div className="card-info">
-                    <h2>Paragraph 3</h2>
-                    <p>Aristotle's Categories</p>
+                    <h2>Prior Analytics</h2>
+                    <p>Aristotle's Six Works on Logics</p>
                     <div className="progress"></div>
                   </div>
-                  <h2 className="percentage">100%</h2>
+                  <h2 className="percentage">0%</h2>
                 </div>
               </div>
             </div>
