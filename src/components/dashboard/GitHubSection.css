@@ -1,0 +1,18 @@
+.github {
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem;
+    position: relative;
+}
+
+.github img {
+    position: absolute;
+    top: 3%;
+    right: -10%;
+}
+.github h2 {
+    width: 40%;
+    color: white;
+    font-weight: 600;
+}

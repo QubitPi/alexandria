@@ -15,6 +15,7 @@
  */
 
 import './Dashboard.css';
+import GitHubSection from "./GitHubSection";
 
 function Dashboard() {
   return (
@@ -44,13 +45,7 @@ function Dashboard() {
             <h2>Hippocrates</h2>
           </div>
         </div>
-        <a href="https://github.com/QubitPi/alexandria" style={{textDecoration: "none"}}>
-          <div className="github">
-            <h2>Fork it on GitHub</h2>
-            <img src="images/github.png" width="80%" alt=""/>
-          </div>
-        </a>
-
+        <GitHubSection />
       </div>
   );
 }
