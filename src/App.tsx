@@ -1,6 +1,5 @@
 import './App.css';
-import Dashboard from "./components/dashboard/Dashboard";
-import Audios from "./components/audios/Audios";
+import {Audios, Dashboard} from "./components";
 
 function App() {
   return (
