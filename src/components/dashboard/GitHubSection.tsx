@@ -13,7 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 import './GitHubSection.css';
 import {useState} from "react";
 
@@ -36,7 +35,7 @@ function GitHubSection() {
               transition: 'opacity 1.0s ease-in-out'
             }}
         >
-          <div className="github">
+          <div className={`github ${isVisible ? "" : "up"}`}>
             <h2>Fork it on GitHub</h2>
             <img src="images/github.png" width="80%" alt=""/>
           </div>
