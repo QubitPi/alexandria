@@ -15,12 +15,27 @@
  */
 
 import './GitHubSection.css';
+import {useState} from "react";
 
 function GitHubSection() {
 
+  const [isVisible, setIsVisible] = useState<boolean>(true)
+
+  const handleClick = () => {
+    setIsVisible(false)
+  }
+
   return (
       <>
-        <a href="https://github.com/QubitPi/alexandria" style={{textDecoration: "none"}}>
+        <a
+            href="https://github.com/QubitPi/alexandria"
+            onClick={handleClick}
+            style={{
+              textDecoration: "none",
+              opacity: isVisible ? 1 : 0,
+              transition: 'opacity 1.0s ease-in-out'
+            }}
+        >
           <div className="github">
             <h2>Fork it on GitHub</h2>
             <img src="images/github.png" width="80%" alt=""/>
