@@ -22,6 +22,11 @@ function GitHubSection() {
 
   const handleClick = () => {
     setIsVisible(false)
+
+    // This side effect is used to make the GH button fade back in on browser backward operation
+    setTimeout(() => {
+      setIsVisible(true);
+    }, 2000);
   }
 
   return (
