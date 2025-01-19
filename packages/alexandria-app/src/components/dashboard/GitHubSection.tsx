@@ -16,7 +16,7 @@
 import './GitHubSection.css';
 import {useState} from "react";
 
-function GitHubSection() {
+function GitHubSection(): JSX.Element {
 
   const [isVisible, setIsVisible] = useState<boolean>(true)
 

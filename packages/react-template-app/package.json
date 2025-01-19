@@ -1,6 +1,0 @@
-{
-  "name": "react-template-app",
-  "dependencies": {
-    "svg-url-loader": "^8.0.0"
-  }
-}

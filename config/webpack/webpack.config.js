@@ -23,7 +23,7 @@ module.exports = function (webpackEnv) {
   const isProdEnvironment = webpackEnv === "production";
 
   return {
-    entry: "./packages/react-template-app/src/index.tsx",
+    entry: "./packages/alexandria-app/src/index.tsx",
     mode: isProdEnvironment ? "production" : "development",
     output: {
       publicPath: "/",
@@ -50,15 +50,6 @@ module.exports = function (webpackEnv) {
               maxSize: imageInlineSizeLimit,
             },
           },
-        },
-        {
-          test: /\.svg$/,
-          use: {
-            loader: 'svg-url-loader',
-            options: {
-              encoding: 'base64'
-            }
-          }
         }
       ],
     },
@@ -70,7 +61,7 @@ module.exports = function (webpackEnv) {
           {},
           {
             inject: true,
-            template: "./packages/react-template-app/public/index.html",
+            template: "./packages/alexandria-app/public/index.html",
           },
           isProdEnvironment
             ? {

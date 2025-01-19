@@ -17,7 +17,7 @@
 import './App.css';
 import {Grammar, Dashboard} from "./components";
 
-function App() {
+function App(): JSX.Element {
   return (
       <>
         <main>

@@ -22,7 +22,7 @@ import Latin from "./latin.svg"
 import Hebrew from "./hebrew.svg"
 import Sanskrit from "./sanskrit.svg"
 
-function Dashboard() {
+function Dashboard(): JSX.Element {
   return (
       <div className="dashboard">
         <div className="project">

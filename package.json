@@ -1,13 +1,13 @@
 {
-  "name": "react-template",
+  "name": "alexandria",
   "workspaces": [
-    "./packages/react-template-app"
+    "./packages/alexandria-app"
   ],
   "version": "0.1.0",
   "engines": {
     "node": ">=18.0.0"
   },
-  "description": "React Template with common pre-defined components, such Redux and CI/CD",
+  "description": "Language grammar notebook",
   "packageManager": "yarn@4.0.2",
   "scripts": {
     "start": "node scripts/start.js",

@@ -17,7 +17,7 @@
 import './Grammar.css';
 import {useState} from "react";
 
-function Grammar() {
+function Grammar(): JSX.Element {
 
   const [cardModalShow, setCardModalShow] = useState<boolean>(false)
 
