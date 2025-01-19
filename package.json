@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/QubitPi/react-template.git"
+    "url": "git+https://github.com/QubitPi/alexandria.git"
   },
   "author": "Jiaqi Liu",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/QubitPi/react-template/issues"
+    "url": "https://github.com/QubitPi/alexandria/issues"
   },
-  "homepage": "https://github.com/QubitPi/react-template#readme",
+  "homepage": "https://github.com/QubitPi/alexandria#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
