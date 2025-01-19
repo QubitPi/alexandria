@@ -2,7 +2,7 @@
     <img src="alexandria.png">
 </div>
 
-![Node Version][node version badge]
+![Node Version Badge]
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Apache License][Apache License Badge]][Apache License, Version 2.0]
 
@@ -24,4 +24,4 @@ The use and distribution terms for [alexandria]() are covered by the [Apache Lic
 [GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/alexandria/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=CI/CD
 [GitHub workflow status URL]: https://github.com/QubitPi/alexandria/actions/workflows/ci-cd.yaml
 
-[node version badge]: https://img.shields.io/badge/NODE-18-339933?logo=Node.js&logoColor=white&labelColor=66cc33&style=for-the-badge
+[Node Version Badge]: https://img.shields.io/badge/NODE-18-339933?logo=Node.js&logoColor=white&labelColor=66cc33&style=for-the-badge
