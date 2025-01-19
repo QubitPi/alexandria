@@ -50,18 +50,6 @@ module.exports = function (webpackEnv) {
               maxSize: imageInlineSizeLimit,
             },
           },
-        },
-        {
-          test: /\.svg$/,
-          use: [
-            {
-              loader: '@svgr/webpack',
-              options: {
-                typescript: true
-              },
-            },
-            'url-loader'
-          ],
         }
       ],
     },
