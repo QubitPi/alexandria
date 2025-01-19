@@ -1,5 +1,5 @@
 /**
- * Copyright Jiaqi Liu
+ * Copyright 2025 Jiaqi Liu. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,6 +17,9 @@
 import './Grammar.css';
 import {useState} from "react";
 
+import first from './first.png';
+import toBeRemoved from "./ancient-greek-first-declension.png";
+
 function Grammar(): JSX.Element {
 
   const [cardModalShow, setCardModalShow] = useState<boolean>(false)
@@ -29,7 +32,7 @@ function Grammar(): JSX.Element {
         </div>
         <div className="cards">
           <div className="card" onClick={() => setCardModalShow(true)}>
-            <img src="images/first.png" width="10%" alt=""/>
+            <img src={first} width="10%" alt=""/>
             <div className="card-info">
               <h2>Noun Declensions</h2>
               <p>1st, 2nd, and 3rd declensions</p>
@@ -52,7 +55,7 @@ function Grammar(): JSX.Element {
               </p>
 
               <div className="img-block">
-                <img src="./images/ancient-greek-first-declension.png" alt=""/>
+                <img src={toBeRemoved} alt=""/>
               </div>
             </div>
           </div>

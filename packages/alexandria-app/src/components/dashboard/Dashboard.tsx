@@ -1,5 +1,5 @@
 /**
- * Copyright Jiaqi Liu
+ * Copyright 2025 Jiaqi Liu. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,13 +21,14 @@ import Greek from "./greek.svg"
 import Latin from "./latin.svg"
 import Hebrew from "./hebrew.svg"
 import Sanskrit from "./sanskrit.svg"
+import avatar from "./avatar.png"
 
 function Dashboard(): JSX.Element {
   return (
       <div className="dashboard">
         <div className="project">
           <div className="imageCropper">
-            <img src="./images/avatar.png" alt=""/>
+            <img src={avatar} alt=""/>
           </div>
           <h3>Alexandria</h3>
           <p>Grammar</p>
