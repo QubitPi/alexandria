@@ -17,10 +17,10 @@
 import './Dashboard.css';
 import GitHubSection from "./GitHubSection";
 
-import {ReactComponent as Greek} from "./greek.svg"
-import {ReactComponent as Latin} from "./latin.svg"
-import {ReactComponent as Hebrew} from "./hebrew.svg"
-import {ReactComponent as Sanskrit} from "./sanskrit.svg"
+import Greek from "./greek.svg"
+import Latin from "./latin.svg"
+import Hebrew from "./hebrew.svg"
+import Sanskrit from "./sanskrit.svg"
 
 function Dashboard() {
   return (

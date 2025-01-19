@@ -12,30 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-dist
-build
-.idea/
-.vscode/
-coverage
-.DS_Store
-node_modules
-
-.env
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-
-docs/.yarn/
-
-/cypress/screenshots/
-/cypress/videos/
-/cypress/downloads/
+docs/**
+dist/**
+config/**
+scripts/**
+cypress.config.ts
